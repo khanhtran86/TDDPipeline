@@ -32,4 +32,9 @@ public class PrimeNumber {
         return rand.nextInt(index);
     }
 
+    public int GetRandomNumber()
+    {
+        return 1;
+    }
+
 }
