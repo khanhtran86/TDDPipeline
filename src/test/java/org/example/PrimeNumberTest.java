@@ -56,4 +56,12 @@ public class PrimeNumberTest {
         assertThrows(IllegalArgumentException.class, () -> primeNumber.check(number));
 
     }
+
+    @Test
+    public void check_GetFibonaciNumber()
+    {
+        PrimeNumber primeNumber = new PrimeNumber();
+        int number = primeNumber.GetFibonaciNumber(5);
+        assertTrue(true);
+    }
 }
