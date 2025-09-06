@@ -56,10 +56,4 @@ public class PrimeNumberTest {
         assertThrows(IllegalArgumentException.class, () -> primeNumber.check(number));
 
     }
-
-    @Test
-    public void check_linh_tinh()
-    {
-        assertTrue(false);
-    }
 }

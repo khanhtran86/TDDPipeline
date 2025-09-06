@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Random;
+
 /**
  * Hello world!
  */
@@ -23,4 +25,11 @@ public class PrimeNumber {
 
         return result;
     }
+
+    public int GetFibonaciNumber(int index)
+    {
+        Random rand = new Random();
+        return rand.nextInt(index);
+    }
+
 }
